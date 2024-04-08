@@ -1,0 +1,15 @@
+.ui.input{
+    input {
+        border-color: #e0e0e0 !important; // Color más oscuro para el borde
+        border-radius: 10px !important;
+        background-color: #e0e0e0 !important; // Color más oscuro para el fondo
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3) !important; // Sombra más oscura
+
+        &:focus {
+            background-color: #fff !important;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5) !important; // Sombra más oscura y más opaca
+            -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5) !important; // Sombra más oscura y más opaca
+            -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5) !important; // Sombra más oscura y más opaca
+        }
+    }
+}
